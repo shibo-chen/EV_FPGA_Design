@@ -1,0 +1,3 @@
+make[1]: Entering directory `/homes/chshibo/EVs/SELibrary/sw'
+cc -g -O2 -fstack-protector -fPIE -fPIC -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -I./obj -c SE_communication.c -o obj/SE_communication.o
+make[1]: Leaving directory `/homes/chshibo/EVs/SELibrary/sw'
