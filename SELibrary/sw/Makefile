@@ -1,6 +1,5 @@
 include ../../common/sw/common_include.mk
 
-
 # Primary test name
 TEST = SE_communication
 # Build directory
@@ -14,6 +13,9 @@ OBJS = $(addprefix $(OBJDIR)/,$(patsubst %.c,%.o,$(SRCS)))
 
 # Targets (build only $(TEST)_ase by default)
 all: $(TEST) $(TEST)_ase 
+
+setup_environ:
+	export ASE_WORKDIR=/homes/chshibo/EVs/SELibrary/hw/build_sim/work
 
 # AFU info from JSON file, including AFU UUID
 AFU_JSON_INFO = $(OBJDIR)/afu_json_info.h

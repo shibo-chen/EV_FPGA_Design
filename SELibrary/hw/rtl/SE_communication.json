@@ -2,8 +2,8 @@
    "version": 1,
    "afu-image": {
       "power": 0,
-      "clock-frequency-high": "auto-300",
-      "clock-frequency-low": "auto-150",
+      "clock-frequency-high": "auto-100",
+      "clock-frequency-low": "auto-50",
       "afu-top-interface":
          {
             "class": "ofs_plat_afu"
@@ -13,7 +13,7 @@
             {
                "name": "SE_communication",
                "total-contexts": 1,
-               "accelerator-type-uuid": "c6aa954a-9b91-4a37-abc1-1d9f0709dcc3"
+               "accelerator-type-uuid": "9eab8b08-c309-49bf-8b00-30e478b62f81"
             }
          ]
    }
