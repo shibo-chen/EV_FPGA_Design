@@ -3,7 +3,7 @@
 ##
 
 COPT     ?= -g -O2
-CPPFLAGS ?= -std=c++11
+CPPFLAGS ?= -std=gnu++11
 CXX      ?= g++
 LDFLAGS  ?=
 
